@@ -16,9 +16,9 @@ if option == 2:
   rate = 0
   time = 0
 
-while True:
+while True:                # when using True and  False in a while loop you have to break it at the end to not cause a never ending loop
   princliple = float(input("Enter the amount you want to invest: "))
-  if princliple <= 0:
+  if princliple <= 0:                
     print("Please enter a positive number")
   else:
       break
